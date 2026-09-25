@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta name="description" content="AIIMS Bhubaneswar MBBS Batch 2025 (Academic Schedule) Academic & Clinical Teaching Schedule - Academic Session">
+  <meta name="theme-color" content="#1E3A8A">
+  <title>MBBS Batch 2025 Class Calendar | AIIMS Bhubaneswar</title>
+
+  <!-- Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Syne:wght@600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==================== HEADER ==================== -->
+  <header class="app-header">
+    <div class="header-container">
+      
+      <!-- Logo & Academic Identity -->
+      <div class="header-brand">
+        <div class="brand-crest">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+            <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+            <path d="M2 17l10 5 10-5"></path>
+            <path d="M2 12l10 5 10-5"></path>
+          </svg>
+        </div>
+        <div class="brand-copy">
+          <div class="brand-kicker">AIIMS BHUBANESWAR • ACADEMIC SECTION</div>
+          <h1 class="brand-title">MBBS Batch 2025 Class Calendar</h1>
+          <p class="brand-subtitle">3rd Semester Academic Schedule • August – December 2026 (LT-1 & Dept Labs)</p>
+        </div>
+      </div>
+
+      <!-- Action Navigation (Clean & Essential) -->
+      <div class="header-actions">
+        <!-- Monthly Calendar Button -->
+        <button class="header-btn" id="open-cal-modal-btn" title="Open Interactive Month Calendar">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+            <line x1="16" y1="2" x2="16" y2="6"></line>
+            <line x1="8" y1="2" x2="8" y2="6"></line>
+            <line x1="3" y1="10" x2="21" y2="10"></line>
+          </svg>
+          <span class="btn-text-full">Month Calendar</span>
+          <span class="btn-text-compact">Calendar</span>
+        </button>
+
+        <!-- Class Reminders / Notification Button -->
+        <button class="header-btn" id="open-notif-modal-btn" title="Class Notification & Reminder Settings">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+            <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
+            <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
+          </svg>
+          <span class="btn-text-full">Reminders</span>
+          <span class="btn-text-compact">Alerts</span>
+          <span class="notif-indicator-dot" id="notif-header-dot"></span>
+        </button>
+
+        <!-- 1-Click Phone Calendar Sync (.ICS) -->
+        <button class="header-btn primary-action" id="sync-phone-btn" title="Sync all 124 classes to Google Calendar / Apple Calendar">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          <span class="btn-text-full">Sync Phone (.ICS)</span>
+          <span class="btn-text-compact">Sync (.ICS)</span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- ==================== TODAY STATUS CALLOUT ==================== -->
+  <div class="today-callout-banner" id="today-callout-banner">
+    <div class="today-banner-left">
+      <span class="live-pulse-dot"></span>
+      <span class="today-date-text" id="today-banner-date">Thursday, 24 Sep 2026</span>
+      <span class="today-status-badge has-classes" id="today-banner-status">3 classes today</span>
+    </div>
+    <button type="button" class="btn-jump-today" id="jump-today-btn" title="Scroll directly to today's schedule">
+      <span>Go to Today ↓</span>
+    </button>
+  </div>
+
+  <!-- ==================== CONTROLS TOOLBAR (SIMPLIFIED) ==================== -->
+  <main class="app-main-layout">
+    
+    <section class="toolbar-section">
+      <div class="toolbar-card simple-toolbar">
+        
+        <!-- Row 1: Week Navigation & View Toggle -->
+        <div class="toolbar-row-main">
+          
+          <!-- Week Navigator -->
+          <div class="week-nav-group">
+            <button class="nav-arrow-btn" id="prev-week" title="Previous Week (Alt + ←)" aria-label="Previous Week">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4">
+                <polyline points="15 18 9 12 15 6"></polyline>
+              </svg>
+            </button>
+
+            <div class="week-display-badge">
+              <span class="week-icon">📅</span>
+              <span class="week-label-text" id="week-label">Loading schedule...</span>
+            </div>
+
+            <button class="nav-arrow-btn" id="next-week" title="Next Week (Alt + →)" aria-label="Next Week">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4">
+                <polyline points="9 18 15 12 9 6"></polyline>
+              </svg>
+            </button>
+
+            <button class="btn-today" id="today-btn" title="Jump to current week">Today</button>
+          </div>
+
+          <!-- View Switcher (Agenda vs Grid) -->
+          <div class="segmented-control view-mode-control" id="view-mode-selector">
+            <button class="segmented-btn active" data-view="agenda" id="view-agenda-btn" title="Daily Agenda Cards">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                <line x1="8" y1="6" x2="21" y2="6"></line>
+                <line x1="8" y1="12" x2="21" y2="12"></line>
+                <line x1="8" y1="18" x2="21" y2="18"></line>
+                <line x1="3" y1="6" x2="3.01" y2="6"></line>
+                <line x1="3" y1="12" x2="3.01" y2="12"></line>
+                <line x1="3" y1="18" x2="3.01" y2="18"></line>
+              </svg>
+              <span>Agenda</span>
+            </button>
+            <button class="segmented-btn" data-view="grid" id="view-grid-btn" title="7-Day Timetable Grid (8:00 - 18:00)">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="3" y1="9" x2="21" y2="9"></line>
+                <line x1="3" y1="15" x2="21" y2="15"></line>
+                <line x1="9" y1="3" x2="9" y2="21"></line>
+                <line x1="15" y1="3" x2="15" y2="21"></line>
+              </svg>
+              <span>Grid</span>
+            </button>
+          </div>
+
+        </div>
+
+        <!-- Row 2: Search Input + Department Dropdown + Filters Drawer Toggle -->
+        <div class="toolbar-row-filters">
+          <!-- Search Field -->
+          <div class="finder-search-field">
+            <svg class="search-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <input type="text" id="search-input" class="search-input" placeholder="Search topic or faculty (e.g. Pathology, Pharmacokinetics, Dr. Adhya)..." autocomplete="off">
+            <button type="button" id="clear-search-btn" class="clear-search-btn hidden" aria-label="Clear Search">&times;</button>
+          </div>
+
+          <!-- Clean Department Dropdown -->
+          <div class="filter-dropdown-wrap">
+            <select id="dept-filter-select" class="clean-select" aria-label="Filter by department">
+              <option value="all">All Departments (124)</option>
+              <option value="Pathology">Pathology (20)</option>
+              <option value="Pharmacology">Pharmacology (22)</option>
+              <option value="Microbiology">Microbiology (14)</option>
+              <option value="Forensic Medicine & Toxicology">Forensic Medicine & Tox (20)</option>
+              <option value="Community Medicine">Community Medicine (34)</option>
+              <option value="General Medicine">General Medicine (5)</option>
+              <option value="Paediatrics">Paediatrics (5)</option>
+              <option value="Obstetrics & Gynaecology">Obstetrics & Gynaecology (4)</option>
+            </select>
+          </div>
+
+          <!-- Filters Toggle Button -->
+          <button type="button" class="btn-more-filters" id="toggle-more-filters-btn" title="Toggle Theory/Practical and Group filters">
+            <span>Filter</span>
+            <span class="filter-arrow">▾</span>
+          </button>
+        </div>
+
+        <!-- Collapsible Secondary Filters Drawer (Hidden by default) -->
+        <div class="secondary-filters-drawer hidden" id="secondary-filters-drawer">
+          <div class="sec-filter-group">
+            <span class="sec-filter-label">Session Type:</span>
+            <select id="type-filter-select" class="clean-select mini">
+              <option value="all">All Types (124 Classes & Labs)</option>
+              <option value="Theory">Theory Lectures (104)</option>
+              <option value="Practical">Practicals & Demos (20)</option>
+            </select>
+          </div>
+
+          <div class="sec-filter-group">
+            <span class="sec-filter-label">Cohort:</span>
+            <select id="cohort-filter-select" class="clean-select mini">
+              <option value="all">All Cohorts / Batches</option>
+              <option value="Group A">Group A</option>
+              <option value="Group B">Group B</option>
+              <option value="Group C">Group C (Clinical Posting)</option>
+            </select>
+          </div>
+
+          <button type="button" class="btn-reset-clean" id="reset-filters-btn">Reset</button>
+          <div class="active-count-badge" id="session-count-pill">Showing 124 sessions</div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Search Status Alert -->
+    <div id="search-status-banner" class="search-status-banner hidden">
+      <div class="banner-content">
+        <span class="banner-icon">🔍</span>
+        <span id="search-status-text">Found matches</span>
+      </div>
+      <button type="button" id="dismiss-search-btn" class="dismiss-banner-btn">&times;</button>
+    </div>
+
+    <!-- ==================== MAIN SCHEDULE VIEWS ==================== -->
+    <div class="schedule-container">
+      
+      <!-- GRID VIEW BLOCK -->
+      <div class="view-section-wrap hidden" id="grid-section-wrap">
+        <div class="view-header-strip hidden" id="grid-section-header">
+          <span class="view-header-title">📊 7-Day Timetable Grid Matrix</span>
+          <span class="view-header-badge">8:00 AM – 6:00 PM</span>
+        </div>
+
+        <div class="grid-outer-card" id="grid-view-container">
+          <!-- Mobile Day Jump Bar -->
+          <div class="grid-mobile-toolbar" id="grid-mobile-toolbar">
+            <div class="grid-swipe-hint">
+              <span class="swipe-hand">👆</span>
+              <span>Swipe across 7 days or tap to jump:</span>
+            </div>
+            <div class="grid-day-jump-strip" id="grid-day-jump-strip">
+              <button type="button" class="day-jump-chip active" data-day-idx="0">Mon</button>
+              <button type="button" class="day-jump-chip" data-day-idx="1">Tue</button>
+              <button type="button" class="day-jump-chip" data-day-idx="2">Wed</button>
+              <button type="button" class="day-jump-chip" data-day-idx="3">Thu</button>
+              <button type="button" class="day-jump-chip" data-day-idx="4">Fri</button>
+              <button type="button" class="day-jump-chip" data-day-idx="5">Sat</button>
+              <button type="button" class="day-jump-chip" data-day-idx="6">Sun</button>
+            </div>
+          </div>
+
+          <div class="timetable-grid" id="timetable-grid">
+            <!-- Rendered dynamically by app.js -->
+          </div>
+        </div>
+      </div>
+
+      <!-- AGENDA VIEW BLOCK -->
+      <div class="view-section-wrap" id="agenda-section-wrap">
+        <div class="view-header-strip hidden" id="agenda-section-header">
+          <span class="view-header-title">📋 Day-by-Day Agenda Stream</span>
+          <span class="view-header-badge">Chronological List</span>
+        </div>
+
+        <div class="agenda-view-container" id="agenda-view-container">
+          <!-- Rendered dynamically by app.js -->
+        </div>
+      </div>
+
+      <!-- Empty State -->
+      <div class="empty-state-card hidden" id="empty-state">
+        <div class="empty-icon">☕</div>
+        <h3 class="empty-title">No Classes Found</h3>
+        <p class="empty-desc">No academic lectures or practical postings match your selected filters for this time window.</p>
+        <button class="btn-today" id="reset-filters-btn">Reset All Filters</button>
+      </div>
+
+    </div>
+
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="app-footer">
+    <div class="footer-container">
+      <div class="footer-left">
+        <strong>AIIMS Bhubaneswar • MBBS Batch 2025 (3rd Semester)</strong>
+        <span>Official 3rd Semester Academic Schedule & Practical Postings • August – December 2026</span>
+      </div>
+      <div class="footer-right">
+        <button class="footer-action-link" id="footer-sync-btn">📲 Sync Phone Calendar (.ICS)</button>
+        <button class="footer-action-link" id="footer-github-btn">🐙 GitHub Pages Setup</button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== MODAL 1: EVENT DETAIL MODAL ==================== -->
+  <div class="modal-backdrop hidden" id="event-detail-modal">
+    <div class="modal-card detail-modal-card" role="dialog" aria-modal="true" aria-labelledby="modal-topic-title">
+      <div class="modal-color-strip" id="modal-color-bar"></div>
+      
+      <div class="modal-header">
+        <div class="modal-badge-group">
+          <span class="modal-badge" id="modal-dept-badge">Department</span>
+          <span class="modal-badge" id="modal-type-badge">Theory</span>
+          <span class="modal-badge group-badge hidden" id="modal-cohort-badge">Group A</span>
+        </div>
+        <button class="modal-close-icon" id="modal-close" aria-label="Close modal">&times;</button>
+      </div>
+
+      <div class="modal-body">
+        <h2 class="modal-topic-title" id="modal-topic-title">Topic Title</h2>
+        
+        <div class="modal-info-list">
+          <div class="info-row">
+            <span class="info-icon">👨‍⚕️</span>
+            <div>
+              <div class="info-label">Faculty / Consultant</div>
+              <div class="info-val" id="modal-faculty-val">Faculty Name</div>
+            </div>
+          </div>
+
+          <div class="info-row">
+            <span class="info-icon">🕒</span>
+            <div>
+              <div class="info-label">Day & Timings</div>
+              <div class="info-val" id="modal-time-val">Thursday • 08:00 AM – 09:00 AM</div>
+            </div>
+          </div>
+
+          <div class="info-row">
+            <span class="info-icon">📍</span>
+            <div>
+              <div class="info-label">Venue / Lecture Theatre</div>
+              <div class="info-val" id="modal-venue-val">Lecture Theatre 3 (LT-1)</div>
+            </div>
+          </div>
+
+          <div class="info-row">
+            <span class="info-icon">📋</span>
+            <div>
+              <div class="info-label">Academic Details</div>
+              <div class="info-val" id="modal-notes-val">Notice details</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal-actions-bar">
+          <a class="btn-cal-action" id="modal-gcal-link" target="_blank" rel="noopener noreferrer">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+              <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+              <line x1="16" y1="2" x2="16" y2="6"></line>
+              <line x1="8" y1="2" x2="8" y2="6"></line>
+              <line x1="3" y1="10" x2="21" y2="10"></line>
+            </svg>
+            <span>Add to Google Calendar</span>
+          </a>
+          <button class="btn-today" id="modal-dismiss-btn">Close</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== MODAL 2: INTERACTIVE MONTH CALENDAR MODAL ==================== -->
+  <div class="modal-backdrop hidden" id="calendar-modal">
+    <div class="modal-card cal-modal-card" role="dialog" aria-modal="true" aria-labelledby="cal-modal-heading">
+      <div class="modal-header">
+        <div>
+          <h2 class="modal-title" id="cal-modal-heading">Academic Session Academic Calendar</h2>
+          <p class="modal-subtitle">Tap any date to inspect scheduled lectures & clinical practicals</p>
+        </div>
+        <button class="modal-close-icon" id="cal-modal-close" aria-label="Close Calendar">&times;</button>
+      </div>
+
+      <div class="cal-modal-body">
+        
+        <!-- Month Weekdays Header -->
+        <div class="cal-weekdays-row">
+          <span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span><span>Sun</span>
+        </div>
+
+        <!-- Month Days Grid (Filled by app.js) -->
+        <div class="cal-days-grid" id="cal-days-grid"></div>
+
+        <!-- Day Class Inspector Drawer -->
+        <div class="cal-day-inspector" id="cal-day-inspector">
+          <div class="inspector-header">
+            <div>
+              <span class="inspector-title" id="inspector-date-label">Select a date</span>
+              <span class="inspector-sub" id="inspector-date-sub"></span>
+            </div>
+            <span class="inspector-count-badge" id="inspector-count-badge">0 Classes</span>
+          </div>
+          
+          <div class="inspector-list" id="inspector-list">
+            <p class="inspector-empty-text">Tap any date with color dots above to see scheduled classes.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== IN-APP NOTIFICATION TOAST ==================== -->
+  <div id="toast-notification" class="toast-notification hidden" role="alert" aria-live="assertive">
+    <div class="toast-icon">🔔</div>
+    <div class="toast-content">
+      <div class="toast-title" id="toast-title">Class Reminder</div>
+      <div class="toast-body" id="toast-body">Upcoming class details...</div>
+    </div>
+    <button type="button" class="toast-close-btn" id="toast-close-btn" aria-label="Dismiss">&times;</button>
+  </div>
+
+  <!-- ==================== MODAL 3: CLASS REMINDERS & NOTIFICATION SETTINGS ==================== -->
+  <div class="modal-backdrop hidden" id="reminder-modal" role="dialog" aria-modal="true" aria-labelledby="reminder-modal-title">
+    <div class="modal-card reminder-modal-card">
+      <div class="modal-header">
+        <div class="modal-title-wrap">
+          <div class="modal-badge-group">
+            <span class="modal-badge" style="background:#EFF6FF; color:#1E40AF; border:1px solid #93C5FD;">🔔 Class Alert Engine</span>
+            <span class="modal-badge notif-perm-badge" id="notif-permission-badge">Checking...</span>
+          </div>
+          <h3 class="modal-title" id="reminder-modal-title">Class Notifications & Alarms</h3>
+          <p class="modal-date-strip">Receive reminders before every lecture and practical session</p>
+        </div>
+        <button class="modal-close-icon" id="reminder-modal-close" aria-label="Close modal">&times;</button>
+      </div>
+
+      <div class="modal-body">
+        <!-- Next Upcoming Class Countdown Card -->
+        <div class="next-class-card" id="next-class-card">
+          <div class="next-class-header">
+            <span class="next-class-pulse"></span>
+            <span class="next-class-tag" id="next-class-tag">NEXT UPCOMING CLASS</span>
+          </div>
+          <div class="next-class-topic" id="next-class-topic">Calculating next lecture...</div>
+          <div class="next-class-meta" id="next-class-meta">Loading timing and venue...</div>
+        </div>
+
+        <!-- Notification Setting Rows -->
+        <div class="notif-settings-group">
+          <!-- Toggle 1: Master Notification Switch -->
+          <div class="notif-setting-row">
+            <div class="notif-setting-info">
+              <div class="notif-setting-name">Enable Pre-Class Notifications</div>
+              <div class="notif-setting-desc">Sends automatic alert popup to your device before each class starts.</div>
+            </div>
+            <label class="toggle-switch">
+              <input type="checkbox" id="notif-master-toggle">
+              <span class="toggle-slider"></span>
+            </label>
+          </div>
+
+          <!-- Toggle 2: Reminder Lead Time Dropdown -->
+          <div class="notif-setting-row">
+            <div class="notif-setting-info">
+              <div class="notif-setting-name">Reminder Timing</div>
+              <div class="notif-setting-desc">How early before class should the alert sound and pop up?</div>
+            </div>
+            <select id="notif-lead-time" class="clean-select mini">
+              <option value="5">5 minutes before</option>
+              <option value="10" selected>10 minutes before (Recommended)</option>
+              <option value="15">15 minutes before</option>
+              <option value="30">30 minutes before</option>
+            </select>
+          </div>
+
+          <!-- Toggle 3: Sound Alert -->
+          <div class="notif-setting-row">
+            <div class="notif-setting-info">
+              <div class="notif-setting-name">Play Medical Chime Sound</div>
+              <div class="notif-setting-desc">Play a gentle melodic chime when notification fires.</div>
+            </div>
+            <label class="toggle-switch">
+              <input type="checkbox" id="notif-sound-toggle" checked>
+              <span class="toggle-slider"></span>
+            </label>
+          </div>
+        </div>
+
+        <!-- Immediate Test Action Section -->
+        <div class="notif-test-section">
+          <button type="button" class="btn-test-notif" id="test-notif-btn">
+            <span>🔔 Send Test Notification Now</span>
+          </button>
+          <p class="notif-note-text">
+            💡 <strong>Pro Tip:</strong> For reliable alarms even when your browser is closed or your phone is locked, use the <strong>Sync Phone (.ICS)</strong> button. It installs automatic 15-minute alarms directly into Google Calendar or Apple Calendar!
+          </p>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn-today secondary" id="reminder-modal-dismiss">Done</button>
+        <button type="button" class="btn-today" style="background:#1E3A8A; color:#FFF;" id="reminder-modal-sync-btn">📱 Sync Phone Calendar (.ICS)</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== MODAL 4: GITHUB DEPLOYMENT GUIDE MODAL ==================== -->
+  <div class="modal-backdrop hidden" id="github-modal">
+    <div class="modal-card github-modal-card" role="dialog" aria-modal="true" aria-labelledby="github-modal-title">
+      <div class="modal-header">
+        <div style="display:flex; align-items:center; gap:8px;">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+          </svg>
+          <h2 class="modal-title" id="github-modal-title">Publish to GitHub Pages in 3 Steps</h2>
+        </div>
+        <button class="modal-close-icon" id="github-modal-close" aria-label="Close Guide">&times;</button>
+      </div>
+
+      <div class="modal-body">
+        <p class="github-guide-intro">
+          This entire project is a static web app built with zero dependencies. You can host it for free on <strong>GitHub Pages</strong> with your own live link:
+        </p>
+
+        <div class="code-step-box">
+          <div class="step-num">Step 1: Create a GitHub Repository</div>
+          <p>Go to <a href="https://github.com/new" target="_blank" rel="noopener">github.com/new</a> and create a public repository named <code>batch2025-calendar</code>.</p>
+        </div>
+
+        <div class="code-step-box">
+          <div class="step-num">Step 2: Push code from your terminal</div>
+          <div class="code-snippet">
+            <code>cd "c:\Users\MOULIK GORAI\Desktop\website\batch2025-calendar"
+git init
+git add .
+git commit -m "AIIMS Bhubaneswar MBBS Batch 2025 Class Calendar"
+git branch -M main
+git remote add origin https://github.com/&lt;YOUR-USERNAME&gt;/batch2025-calendar.git
+git push -u origin main</code>
+          </div>
+        </div>
+
+        <div class="code-step-box">
+          <div class="step-num">Step 3: Enable GitHub Pages</div>
+          <p>In your GitHub repository, open <strong>Settings</strong> &gt; <strong>Pages</strong> &gt; Select branch <strong>main</strong> and folder <strong>/(root)</strong> &gt; Click <strong>Save</strong>.</p>
+          <div class="url-callout">
+            Your calendar will be live at: <br>
+            <code>https://&lt;YOUR-USERNAME&gt;.github.io/batch2025-calendar/</code>
+          </div>
+        </div>
+
+        <div class="modal-actions-bar">
+          <button class="btn-today" id="github-close-btn">Done</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
