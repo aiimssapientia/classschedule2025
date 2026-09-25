@@ -3000,7 +3000,7 @@ async function initializeSchedule() {
   }, 120);
 }
 
-document.addEventListener('DOMContentLoaded', () => {
+function bootApp() {
   initializeSchedule();
 
   // Week Navigation
@@ -3241,4 +3241,11 @@ document.addEventListener('DOMContentLoaded', () => {
       renderAllViews();
     }
   });
-});
+}
+
+// Guarantee execution whether DOM is already parsed or loading
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', bootApp);
+} else {
+  bootApp();
+}
