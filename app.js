@@ -1978,6 +1978,18 @@ function calculateCurrentWeekOffset() {
   return 1;
 }
 
+/**
+ * Resolves the default view mode:
+ * On mobile devices (screen width <= 768px), defaults to 'grid' view.
+ * On desktop devices, defaults to 'agenda' view.
+ */
+function getDefaultViewMode() {
+  if (typeof window !== 'undefined' && window.innerWidth <= 768) {
+    return 'grid';
+  }
+  return 'agenda';
+}
+
 let weekOffset      = calculateCurrentWeekOffset(); // Automatically defaults to today!
 let activeDept      = 'all';
 let activeType      = 'all';
@@ -2618,8 +2630,13 @@ function handleKeywordSearch(query) {
 
 /* ---------- GITHUB & PRINT MODALS ---------- */
 function openGitHubModal() {
-  document.getElementById('github-modal').classList.remove('hidden');
+  document.getElementById('github-modal')?.classList.remove('hidden');
   document.body.style.overflow = 'hidden';
+}
+
+function closeGitHubModal() {
+  document.getElementById('github-modal')?.classList.add('hidden');
+  document.body.style.overflow = '';
 }
 
 /* ==========================================================================
@@ -2634,6 +2651,7 @@ let reminderSettings = {
 
 let notifiedEventsMap = {};
 let toastTimer = null;
+let reminderTimer = null;
 
 function loadReminderSettings() {
   try {
