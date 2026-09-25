@@ -27,16 +27,16 @@ This calendar strictly contains **only 3rd Semester classes for MBBS Batch 2025*
    - 6 Practical / Autopsy & Lab Postings (Mondays 3–5 PM)
    - *Faculty: Dr. Manoj Kumar Mohanty, Dr. Manas Ranjan Sahu, Dr. Sindhu Sudha Sahu*
 5. 🩺 **Community Medicine & Family Medicine (CMFM)** (34 Sessions):
-   - 34 Theory Lectures in LT-1 (Saturdays 9–10 AM, Wednesdays 3–4 PM) running 29th Aug – 23rd Dec 2026
+   - 34 Theory Lectures in LT-2 (Saturdays 9–10 AM, Wednesdays 3–4 PM) running 29th Aug – 23rd Dec 2026
    - *Faculty: Dr. Manish Taywade, Dr. Abhisek Mishra, Dr. Prajna Paramita Giri, Dr. Priyamadhaba Behera*
 6. 🩺 **General Medicine** (5 Sessions):
-   - 5 Theory Lectures in LT-1 (Wednesdays 8–9 AM)
+   - 5 Theory Lectures in LT-2 (Wednesdays 8–9 AM)
    - *Faculty: Dr. Rashmi, Dr. Dhriti, Dr. Anupama, Dr. Srikant, Dr. Debananda*
 7. 👶 **Paediatrics** (5 Sessions):
-   - 5 Theory Lectures in LT-1 (Wednesdays 4–5 PM)
+   - 5 Theory Lectures in LT-2 (Wednesdays 4–5 PM)
    - *Faculty: Prof. Dr. Samarendra Mahapatro, Prof. Dr. Joseph John, Prof. Dr. Bhagirathi Dwibedi, Prof. Dr. Rashmi Ranjan Das, Dr. Pankaj Mohanty*
 8. 🤰 **Obstetrics & Gynaecology (OBG)** (4 Sessions):
-   - 4 Theory Lectures in LT-1 (Thursdays 8–9 AM)
+   - 4 Theory Lectures in LT-2 (Thursdays 8–9 AM)
    - *Faculty: Dr. S. Patra, Dr. S. Mitra, Dr. S.K. Jena, Dr. S. Singh*
 
 ---

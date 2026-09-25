@@ -93,7 +93,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Introduction to Pharmacology",
     "faculty": "Dr D Hota",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-08-27",
     "day": "Thursday",
     "start_time": "14:00",
@@ -123,7 +123,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Drug: nature, source, nomenclature, drug compendias",
     "faculty": "Dr Ajaya K Sahoo",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-08-28",
     "day": "Friday",
     "start_time": "08:00",
@@ -138,7 +138,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Introduction to Pathology",
     "faculty": "Dr Amit Kumar Adhya",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-08-28",
     "day": "Friday",
     "start_time": "09:00",
@@ -168,7 +168,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Introduction to Forensic Medicine",
     "faculty": "Dr. Manoj Kumar Mohanty",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-08-29",
     "day": "Saturday",
     "start_time": "08:00",
@@ -183,13 +183,13 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Man and Medicine towards heath for all",
     "faculty": "Dr. Manish Taywade",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-08-29",
     "day": "Saturday",
     "start_time": "09:00",
     "end_time": "10:00",
     "group": "all",
-    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-1"
+    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-2"
   },
   {
     "id": "path-03",
@@ -198,7 +198,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Cellular adaptation; reversible vs. irreversible cell injury",
     "faculty": "Dr Mukund N Sable",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-08-31",
     "day": "Monday",
     "start_time": "08:00",
@@ -213,7 +213,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Pharmacokinetics (1)",
     "faculty": "Dr BM Padhy",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-08-31",
     "day": "Monday",
     "start_time": "09:00",
@@ -228,7 +228,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Legal procedure – I",
     "faculty": "Dr. Manas Ranjan Sahu",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-08-31",
     "day": "Monday",
     "start_time": "14:00",
@@ -258,7 +258,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Morphology & classification of bacteria",
     "faculty": "Dr. DP",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-01",
     "day": "Tuesday",
     "start_time": "08:00",
@@ -273,7 +273,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Legal procedure – II",
     "faculty": "Dr. Manas Ranjan Sahu",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-01",
     "day": "Tuesday",
     "start_time": "09:00",
@@ -303,7 +303,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Headache",
     "faculty": "Dr. Rashmi",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-02",
     "day": "Wednesday",
     "start_time": "08:00",
@@ -318,7 +318,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Pharmacokinetics (2)",
     "faculty": "Dr BM Padhy",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-02",
     "day": "Wednesday",
     "start_time": "09:00",
@@ -333,7 +333,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Necrosis: morphology and clinical correlation",
     "faculty": "Dr Mukund N Sable",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-02",
     "day": "Wednesday",
     "start_time": "14:00",
@@ -348,13 +348,13 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Concept and Dimension of Health",
     "faculty": "Dr. Abhisek Mishra",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-02",
     "day": "Wednesday",
     "start_time": "15:00",
     "end_time": "16:00",
     "group": "all",
-    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-1"
+    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-2"
   },
   {
     "id": "paed-01",
@@ -363,7 +363,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Introduction to Paediatrics",
     "faculty": "Prof. Dr. Samarendra Mahapatro",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-02",
     "day": "Wednesday",
     "start_time": "16:00",
@@ -378,13 +378,13 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Physiology of Conception-(gametogenesis, fertilisation, steroidogenesis)",
     "faculty": "Dr S. Patra",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-03",
     "day": "Thursday",
     "start_time": "08:00",
     "end_time": "09:00",
     "group": "all",
-    "notes": "Dept. of Obstetrics & Gynaecology • Batch 2025 (3rd Sem) • LT-1"
+    "notes": "Dept. of Obstetrics & Gynaecology • Batch 2025 (3rd Sem) • LT-2"
   },
   {
     "id": "micro-03",
@@ -393,7 +393,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Physiology, growth & metabolism of bacteria",
     "faculty": "Dr. SM",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-03",
     "day": "Thursday",
     "start_time": "09:00",
@@ -423,7 +423,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Pharmacokinetics (3)",
     "faculty": "Dr BM Padhy",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-04",
     "day": "Friday",
     "start_time": "08:00",
@@ -438,7 +438,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Apoptosis",
     "faculty": "Dr Mukund N Sable",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-04",
     "day": "Friday",
     "start_time": "09:00",
@@ -468,7 +468,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Identification – I",
     "faculty": "Dr. Sindhu Sudha Sahu",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-05",
     "day": "Saturday",
     "start_time": "08:00",
@@ -483,13 +483,13 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Determinants of health",
     "faculty": "Dr. Prajna Paramita Giri",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-05",
     "day": "Saturday",
     "start_time": "09:00",
     "end_time": "10:00",
     "group": "all",
-    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-1"
+    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-2"
   },
   {
     "id": "path-07",
@@ -498,7 +498,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Necroptosis, misfolded proteins, cellular ageing, telomeres",
     "faculty": "Dr Mukund N Sable",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-07",
     "day": "Monday",
     "start_time": "08:00",
@@ -513,7 +513,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Pharmacokinetics (4)",
     "faculty": "Dr BM Padhy",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-07",
     "day": "Monday",
     "start_time": "09:00",
@@ -528,7 +528,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Identification – II",
     "faculty": "Dr. Sindhu Sudha Sahu",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-07",
     "day": "Monday",
     "start_time": "14:00",
@@ -558,7 +558,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Sterilization physical Methods-1",
     "faculty": "Dr. AM",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-08",
     "day": "Tuesday",
     "start_time": "08:00",
@@ -573,7 +573,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Legal procedure – III",
     "faculty": "Dr. Manas Ranjan Sahu",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-08",
     "day": "Tuesday",
     "start_time": "09:00",
@@ -603,7 +603,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Nausea, vomiting, Anorexia",
     "faculty": "Dr. Dhriti",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-09",
     "day": "Wednesday",
     "start_time": "08:00",
@@ -618,7 +618,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Introduction to Clinical Pharmacology and Drug development process",
     "faculty": "Dr D Hota",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-09",
     "day": "Wednesday",
     "start_time": "09:00",
@@ -633,7 +633,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Intracellular accumulation, dystrophic vs metastatic calcification, free radical injury",
     "faculty": "Dr Mukund N Sable",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-09",
     "day": "Wednesday",
     "start_time": "14:00",
@@ -648,13 +648,13 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Indicator of health-I",
     "faculty": "Dr. Prajna Paramita Giri",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-09",
     "day": "Wednesday",
     "start_time": "15:00",
     "end_time": "16:00",
     "group": "all",
-    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-1"
+    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-2"
   },
   {
     "id": "paed-02",
@@ -663,7 +663,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "History taking and its scheme in Paediatrics",
     "faculty": "Prof. Dr. Joseph John",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-09",
     "day": "Wednesday",
     "start_time": "16:00",
@@ -678,13 +678,13 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Placenta (structure, development, function, placental circulation)",
     "faculty": "Dr. S. Mitra",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-10",
     "day": "Thursday",
     "start_time": "08:00",
     "end_time": "09:00",
     "group": "all",
-    "notes": "Dept. of Obstetrics & Gynaecology • Batch 2025 (3rd Sem) • LT-1"
+    "notes": "Dept. of Obstetrics & Gynaecology • Batch 2025 (3rd Sem) • LT-2"
   },
   {
     "id": "micro-06",
@@ -693,7 +693,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Bacterial genetics -1",
     "faculty": "Dr. SM",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-10",
     "day": "Thursday",
     "start_time": "09:00",
@@ -708,7 +708,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Drug dosage forms",
     "faculty": "Dr Abhishek Anil",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-10",
     "day": "Thursday",
     "start_time": "14:00",
@@ -738,7 +738,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Factors modifying drug action",
     "faculty": "Dr Pragya",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-11",
     "day": "Friday",
     "start_time": "08:00",
@@ -753,7 +753,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Acute inflammation-Vascular events",
     "faculty": "Dr Amit Kumar Adhya",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-11",
     "day": "Friday",
     "start_time": "09:00",
@@ -783,7 +783,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Legal procedure – IV",
     "faculty": "Dr. Manas Ranjan Sahu",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-12",
     "day": "Saturday",
     "start_time": "08:00",
@@ -798,13 +798,13 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Indicator of health-II",
     "faculty": "Dr. Prajna Paramita Giri",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-12",
     "day": "Saturday",
     "start_time": "09:00",
     "end_time": "10:00",
     "group": "all",
-    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-1"
+    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-2"
   },
   {
     "id": "path-11",
@@ -813,7 +813,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Acute inflammation-Cellular events",
     "faculty": "Dr Amit Kumar Adhya",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-14",
     "day": "Monday",
     "start_time": "08:00",
@@ -828,7 +828,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Pharmacodynamics (1)",
     "faculty": "Dr R Maiti",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-14",
     "day": "Monday",
     "start_time": "09:00",
@@ -843,7 +843,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Identification – III",
     "faculty": "Dr. Sindhu Sudha Sahu",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-14",
     "day": "Monday",
     "start_time": "14:00",
@@ -873,7 +873,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Sterilization physical Methods - 2",
     "faculty": "Dr. VH",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-15",
     "day": "Tuesday",
     "start_time": "08:00",
@@ -888,7 +888,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Identification – IV",
     "faculty": "Dr. Sindhu Sudha Sahu",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-15",
     "day": "Tuesday",
     "start_time": "09:00",
@@ -918,7 +918,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Syncope",
     "faculty": "Dr. Anupama",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-16",
     "day": "Wednesday",
     "start_time": "08:00",
@@ -933,7 +933,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Pharmacodynamics (2)",
     "faculty": "Dr R Maiti",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-16",
     "day": "Wednesday",
     "start_time": "09:00",
@@ -948,7 +948,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Chemical mediators of inflammation",
     "faculty": "Dr Amit Kumar Adhya",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-16",
     "day": "Wednesday",
     "start_time": "14:00",
@@ -963,13 +963,13 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Physical Activity, Exercise and METs",
     "faculty": "Dr. Abhisek Mishra",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-16",
     "day": "Wednesday",
     "start_time": "15:00",
     "end_time": "16:00",
     "group": "all",
-    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-1"
+    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-2"
   },
   {
     "id": "paed-03",
@@ -978,7 +978,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "General examination including anthropometry",
     "faculty": "Prof. Dr. Bhagirathi Dwibedi",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-16",
     "day": "Wednesday",
     "start_time": "16:00",
@@ -993,13 +993,13 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Fetal Physiology and Growth",
     "faculty": "Dr S K Jena",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-17",
     "day": "Thursday",
     "start_time": "08:00",
     "end_time": "09:00",
     "group": "all",
-    "notes": "Dept. of Obstetrics & Gynaecology • Batch 2025 (3rd Sem) • LT-1"
+    "notes": "Dept. of Obstetrics & Gynaecology • Batch 2025 (3rd Sem) • LT-2"
   },
   {
     "id": "micro-09",
@@ -1008,7 +1008,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Culture media",
     "faculty": "Dr. AM",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-17",
     "day": "Thursday",
     "start_time": "09:00",
@@ -1038,7 +1038,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Pharmacodynamics (3)",
     "faculty": "Dr R Maiti",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-18",
     "day": "Friday",
     "start_time": "08:00",
@@ -1053,7 +1053,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Chronic Inflammation, granulomatous inflammation",
     "faculty": "Dr Amit Kumar Adhya",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-18",
     "day": "Friday",
     "start_time": "09:00",
@@ -1083,7 +1083,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Legal procedure – V",
     "faculty": "Dr. Manas Ranjan Sahu",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-19",
     "day": "Saturday",
     "start_time": "08:00",
@@ -1098,13 +1098,13 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Revision",
     "faculty": "Dr. Manish Taywade",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-19",
     "day": "Saturday",
     "start_time": "09:00",
     "end_time": "10:00",
     "group": "all",
-    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-1"
+    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-2"
   },
   {
     "id": "path-15",
@@ -1113,7 +1113,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Cutaneous wound healing and repair",
     "faculty": "Dr Amit Kumar Adhya",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-21",
     "day": "Monday",
     "start_time": "08:00",
@@ -1143,7 +1143,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Identification – V",
     "faculty": "Dr. Sindhu Sudha Sahu",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-21",
     "day": "Monday",
     "start_time": "14:00",
@@ -1173,7 +1173,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Disinfection",
     "faculty": "Dr. DP",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-22",
     "day": "Tuesday",
     "start_time": "08:00",
@@ -1188,7 +1188,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Identification – VI",
     "faculty": "Dr. Sindhu Sudha Sahu",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-22",
     "day": "Tuesday",
     "start_time": "09:00",
@@ -1218,7 +1218,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Confusion and Delirium",
     "faculty": "Dr. Srikant",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-23",
     "day": "Wednesday",
     "start_time": "08:00",
@@ -1233,7 +1233,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Pharmacodynamics (4)",
     "faculty": "Dr R Maiti",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-23",
     "day": "Wednesday",
     "start_time": "09:00",
@@ -1248,7 +1248,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Cell cycle and stem cells",
     "faculty": "Dr Gaurav Chhabra",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-23",
     "day": "Wednesday",
     "start_time": "14:00",
@@ -1263,13 +1263,13 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Health Service Philosophies",
     "faculty": "Dr. Abhisek Mishra",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-23",
     "day": "Wednesday",
     "start_time": "15:00",
     "end_time": "16:00",
     "group": "all",
-    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-1"
+    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-2"
   },
   {
     "id": "paed-04",
@@ -1278,7 +1278,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Normal growth",
     "faculty": "Prof. Dr. Rashmi Ranjan Das",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-23",
     "day": "Wednesday",
     "start_time": "16:00",
@@ -1293,13 +1293,13 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Development and applied anatomy of the female internal genitalia",
     "faculty": "Dr S. Singh",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-24",
     "day": "Thursday",
     "start_time": "08:00",
     "end_time": "09:00",
     "group": "all",
-    "notes": "Dept. of Obstetrics & Gynaecology • Batch 2025 (3rd Sem) • LT-1"
+    "notes": "Dept. of Obstetrics & Gynaecology • Batch 2025 (3rd Sem) • LT-2"
   },
   {
     "id": "micro-12",
@@ -1308,7 +1308,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Bacterial genetics -1",
     "faculty": "Dr. SM",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-24",
     "day": "Thursday",
     "start_time": "09:00",
@@ -1338,7 +1338,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Adverse drug reactions",
     "faculty": "Dr BM Padhy",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-25",
     "day": "Friday",
     "start_time": "08:00",
@@ -1353,7 +1353,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Patient biosafety",
     "faculty": "Dr Gaurav Chhabra",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-25",
     "day": "Friday",
     "start_time": "09:00",
@@ -1383,7 +1383,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Death and its causes – I",
     "faculty": "Dr. Manas Ranjan Sahu",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-26",
     "day": "Saturday",
     "start_time": "08:00",
@@ -1398,13 +1398,13 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Concept of Disease causation and Natural history of disease",
     "faculty": "Dr. Abhisek Mishra",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-26",
     "day": "Saturday",
     "start_time": "09:00",
     "end_time": "10:00",
     "group": "all",
-    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-1"
+    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-2"
   },
   {
     "id": "path-19",
@@ -1413,7 +1413,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Amyloidosis",
     "faculty": "Dr Mukund N Sable",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-28",
     "day": "Monday",
     "start_time": "08:00",
@@ -1428,7 +1428,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Neurohumoral transmission, General concept of ANS",
     "faculty": "Dr. M Jena",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-28",
     "day": "Monday",
     "start_time": "09:00",
@@ -1443,7 +1443,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Death and its causes – II",
     "faculty": "Dr. Manas Ranjan Sahu",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-28",
     "day": "Monday",
     "start_time": "14:00",
@@ -1473,7 +1473,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Culture methods & Antimicrobial susceptibility test",
     "faculty": "Dr. AM",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-29",
     "day": "Tuesday",
     "start_time": "08:00",
@@ -1488,7 +1488,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Death and its causes – III",
     "faculty": "Dr. Manas Ranjan Sahu",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-29",
     "day": "Tuesday",
     "start_time": "09:00",
@@ -1518,7 +1518,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Jaundice",
     "faculty": "Dr. Debananda",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-30",
     "day": "Wednesday",
     "start_time": "08:00",
@@ -1533,7 +1533,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Cholinomimetic drugs (1)",
     "faculty": "Dr. M Jena",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-30",
     "day": "Wednesday",
     "start_time": "09:00",
@@ -1548,7 +1548,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Fracture healing",
     "faculty": "Dr Mukund N Sable",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-30",
     "day": "Wednesday",
     "start_time": "14:00",
@@ -1563,13 +1563,13 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Concept of control and Prevention",
     "faculty": "Dr. Abhisek Mishra",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-30",
     "day": "Wednesday",
     "start_time": "15:00",
     "end_time": "16:00",
     "group": "all",
-    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-1"
+    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-2"
   },
   {
     "id": "paed-05",
@@ -1578,7 +1578,7 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Normal Development",
     "faculty": "Dr Pankaj Mohanty",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-09-30",
     "day": "Wednesday",
     "start_time": "16:00",
@@ -1593,13 +1593,13 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Modes of intervention",
     "faculty": "Dr. Prajna Paramita Giri",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-10-03",
     "day": "Saturday",
     "start_time": "09:00",
     "end_time": "10:00",
     "group": "all",
-    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-1"
+    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-2"
   },
   {
     "id": "cmfm-12",
@@ -1608,13 +1608,13 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Revision",
     "faculty": "Dr. Prajna Paramita Giri",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-10-07",
     "day": "Wednesday",
     "start_time": "15:00",
     "end_time": "16:00",
     "group": "all",
-    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-1"
+    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-2"
   },
   {
     "id": "cmfm-13",
@@ -1623,13 +1623,13 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Introduction and Historical Evolution of Epidemiology",
     "faculty": "Dr. Manish Taywade",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-10-10",
     "day": "Saturday",
     "start_time": "09:00",
     "end_time": "10:00",
     "group": "all",
-    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-1"
+    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-2"
   },
   {
     "id": "cmfm-14",
@@ -1638,13 +1638,13 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Basic measurement in epidemiology",
     "faculty": "Dr. Priyamadhaba Behera",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-10-14",
     "day": "Wednesday",
     "start_time": "15:00",
     "end_time": "16:00",
     "group": "all",
-    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-1"
+    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-2"
   },
   {
     "id": "cmfm-15",
@@ -1653,13 +1653,13 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Architecture of Epidemiological Designs (Epidemiologic Methods)",
     "faculty": "Dr. Manish Taywade",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-10-17",
     "day": "Saturday",
     "start_time": "09:00",
     "end_time": "10:00",
     "group": "all",
-    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-1"
+    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-2"
   },
   {
     "id": "cmfm-16",
@@ -1668,13 +1668,13 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Descriptive Studies (Ecological and cross-sectional studies)",
     "faculty": "Dr. Prajna Paramita Giri",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-10-21",
     "day": "Wednesday",
     "start_time": "15:00",
     "end_time": "16:00",
     "group": "all",
-    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-1"
+    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-2"
   },
   {
     "id": "cmfm-17",
@@ -1683,13 +1683,13 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Analytical Studies - I (Case-control study)",
     "faculty": "Dr. Priyamadhaba Behera",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-10-24",
     "day": "Saturday",
     "start_time": "09:00",
     "end_time": "10:00",
     "group": "all",
-    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-1"
+    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-2"
   },
   {
     "id": "cmfm-18",
@@ -1698,13 +1698,13 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Analytical Studies - II (Cohort study)",
     "faculty": "Dr. Prajna Paramita Giri",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-10-28",
     "day": "Wednesday",
     "start_time": "15:00",
     "end_time": "16:00",
     "group": "all",
-    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-1"
+    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-2"
   },
   {
     "id": "cmfm-19",
@@ -1713,13 +1713,13 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Experimental (Interventional) Studies-I",
     "faculty": "Dr. Priyamadhaba Behera",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-10-31",
     "day": "Saturday",
     "start_time": "09:00",
     "end_time": "10:00",
     "group": "all",
-    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-1"
+    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-2"
   },
   {
     "id": "cmfm-20",
@@ -1728,13 +1728,13 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Experimental (Interventional) Studies-II",
     "faculty": "Dr. Priyamadhaba Behera",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-11-04",
     "day": "Wednesday",
     "start_time": "15:00",
     "end_time": "16:00",
     "group": "all",
-    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-1"
+    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-2"
   },
   {
     "id": "cmfm-21",
@@ -1743,13 +1743,13 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Epidemiology Revision",
     "faculty": "Dr. Priyamadhaba Behera",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-11-07",
     "day": "Saturday",
     "start_time": "09:00",
     "end_time": "10:00",
     "group": "all",
-    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-1"
+    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-2"
   },
   {
     "id": "cmfm-22",
@@ -1758,13 +1758,13 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Association & Causation of Disease",
     "faculty": "Dr. Priyamadhaba Behera",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-11-11",
     "day": "Wednesday",
     "start_time": "15:00",
     "end_time": "16:00",
     "group": "all",
-    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-1"
+    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-2"
   },
   {
     "id": "cmfm-23",
@@ -1773,13 +1773,13 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Infectious disease epidemiology & dynamics of disease transmission",
     "faculty": "Dr. Priyamadhaba Behera",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-11-14",
     "day": "Saturday",
     "start_time": "09:00",
     "end_time": "10:00",
     "group": "all",
-    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-1"
+    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-2"
   },
   {
     "id": "cmfm-24",
@@ -1788,13 +1788,13 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Host defence with immunising agents and NIS",
     "faculty": "Dr. Abhisek Mishra",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-11-18",
     "day": "Wednesday",
     "start_time": "15:00",
     "end_time": "16:00",
     "group": "all",
-    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-1"
+    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-2"
   },
   {
     "id": "cmfm-25",
@@ -1803,13 +1803,13 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "AEFI Types and its Investigation. Special vaccine drives (like Pulse Polio campaign)",
     "faculty": "Dr. Abhisek Mishra",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-11-21",
     "day": "Saturday",
     "start_time": "09:00",
     "end_time": "10:00",
     "group": "all",
-    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-1"
+    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-2"
   },
   {
     "id": "cmfm-26",
@@ -1818,13 +1818,13 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Investigation of epidemics, Epidemiological Surveys",
     "faculty": "Dr. Manish Taywade",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-11-25",
     "day": "Wednesday",
     "start_time": "15:00",
     "end_time": "16:00",
     "group": "all",
-    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-1"
+    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-2"
   },
   {
     "id": "cmfm-27",
@@ -1833,13 +1833,13 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Screening (Concept of screening and lead time, Evaluation of screening test)",
     "faculty": "Dr. Manish Taywade",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-11-28",
     "day": "Saturday",
     "start_time": "09:00",
     "end_time": "10:00",
     "group": "all",
-    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-1"
+    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-2"
   },
   {
     "id": "cmfm-28",
@@ -1848,13 +1848,13 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Revision",
     "faculty": "Dr. Abhisek Mishra",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-12-02",
     "day": "Wednesday",
     "start_time": "15:00",
     "end_time": "16:00",
     "group": "all",
-    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-1"
+    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-2"
   },
   {
     "id": "cmfm-29",
@@ -1863,13 +1863,13 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Nutrition -I (Introduction, Major Foods & their nutritive value)",
     "faculty": "Dr. Manish Taywade",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-12-05",
     "day": "Saturday",
     "start_time": "09:00",
     "end_time": "10:00",
     "group": "all",
-    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-1"
+    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-2"
   },
   {
     "id": "cmfm-30",
@@ -1878,13 +1878,13 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Nutrition – II (Nutrition requirements of special groups)",
     "faculty": "Dr. Prajna Paramita Giri",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-12-09",
     "day": "Wednesday",
     "start_time": "15:00",
     "end_time": "16:00",
     "group": "all",
-    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-1"
+    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-2"
   },
   {
     "id": "cmfm-31",
@@ -1893,13 +1893,13 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Nutrition -III (Nutritional deficiency diseases of public health importance)",
     "faculty": "Dr. Prajna Paramita Giri",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-12-12",
     "day": "Saturday",
     "start_time": "09:00",
     "end_time": "10:00",
     "group": "all",
-    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-1"
+    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-2"
   },
   {
     "id": "cmfm-32",
@@ -1908,13 +1908,13 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Nutrition - IV (Nutrition Assessment & Surveillance)",
     "faculty": "Dr. Manish Taywade",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-12-16",
     "day": "Wednesday",
     "start_time": "15:00",
     "end_time": "16:00",
     "group": "all",
-    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-1"
+    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-2"
   },
   {
     "id": "cmfm-33",
@@ -1923,13 +1923,13 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Nutrition-V (Food Hygiene--Milk & Meat Hygiene)",
     "faculty": "Dr. Manish Taywade",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-12-19",
     "day": "Saturday",
     "start_time": "09:00",
     "end_time": "10:00",
     "group": "all",
-    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-1"
+    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-2"
   },
   {
     "id": "cmfm-34",
@@ -1938,13 +1938,13 @@ const EMBEDDED_SCHEDULE = [
     "class_type": "Theory",
     "topic": "Revision",
     "faculty": "Dr. Priyamadhaba Behera",
-    "room": "LT-1",
+    "room": "LT-2",
     "date": "2026-12-23",
     "day": "Wednesday",
     "start_time": "15:00",
     "end_time": "16:00",
     "group": "all",
-    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-1"
+    "notes": "Dept. of CM & FM • 3rd Semester MBBS Batch 2025 • LT-2"
   }
 ];
 
@@ -2400,7 +2400,7 @@ function renderAgendaView(visibleEvents, weekStart, today) {
 
         <div class="agenda-side-col">
           <div class="agenda-time-pill">${formatTime(evt.start_time)} – ${formatTime(evt.end_time)}</div>
-          <div class="agenda-venue-pill">📍 ${escapeHtml(evt.room || 'LT-1')}</div>
+          <div class="agenda-venue-pill">📍 ${escapeHtml(evt.room || 'LT-2')}</div>
         </div>
       `;
 
@@ -2446,7 +2446,7 @@ function openDetailModal(evt, theme, dayName) {
   
   const niceDate = evt.date ? formatNiceDate(evt.date) : (dayName || '');
   document.getElementById('modal-time-val').textContent = `${niceDate} • ${formatTime(evt.start_time)} – ${formatTime(evt.end_time)}`;
-  document.getElementById('modal-venue-val').textContent = evt.room || 'Lecture Theatre 3 (LT-1)';
+  document.getElementById('modal-venue-val').textContent = evt.room || 'Lecture Theatre 2 (LT-2)';
   document.getElementById('modal-notes-val').textContent = evt.notes || 'AIIMS Bhubaneswar MBBS Batch 2025';
 
   // Build Google Calendar Web Link
@@ -2456,7 +2456,7 @@ function openDetailModal(evt, theme, dayName) {
     const endIso   = evt.date.replace(/-/g, '') + 'T' + evt.end_time.replace(/:/g, '') + '00';
     const text     = encodeURIComponent(`[${evt.department}] ${evt.topic}`);
     const details  = encodeURIComponent(`Faculty: ${evt.faculty}\nRoom: ${evt.room}\nDetails: ${evt.notes}`);
-    const location = encodeURIComponent(`${evt.room || 'LT-1'}, AIIMS Bhubaneswar`);
+    const location = encodeURIComponent(`${evt.room || 'LT-2'}, AIIMS Bhubaneswar`);
     gcalBtn.href = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${text}&dates=${startIso}/${endIso}&details=${details}&location=${location}`;
   }
 
@@ -2570,7 +2570,7 @@ function inspectCalendarDate(dateKey, dayClasses) {
       item.innerHTML = `
         <div style="flex:1;">
           <div class="inspector-item-main">[${escapeHtml(theme.short)}] ${escapeHtml(evt.topic)}</div>
-          <div style="font-size:0.7rem; color:#64748B;">👨‍⚕️ ${escapeHtml(evt.faculty)} • 📍 ${escapeHtml(evt.room || 'LT-1')}</div>
+          <div style="font-size:0.7rem; color:#64748B;">👨‍⚕️ ${escapeHtml(evt.faculty)} • 📍 ${escapeHtml(evt.room || 'LT-2')}</div>
         </div>
         <div class="inspector-item-time">${formatTime(evt.start_time)} – ${formatTime(evt.end_time)}</div>
       `;
@@ -2830,7 +2830,7 @@ function checkUpcomingClasses() {
           const minsLeft = startMin - currentMinutes;
           const timeLabel = minsLeft <= 1 ? 'starting right now' : `starting in ${minsLeft} minutes`;
           const title = `🔔 Class Reminder (${evt.subject || evt.department})`;
-          const body = `${evt.topic}\n⏰ ${timeLabel} (${formatTime(evt.start_time)})\n📍 ${evt.room || 'LT-1'} • 👨‍⚕️ ${evt.faculty}`;
+          const body = `${evt.topic}\n⏰ ${timeLabel} (${formatTime(evt.start_time)})\n📍 ${evt.room || 'LT-2'} • 👨‍⚕️ ${evt.faculty}`;
 
           sendClassNotification(title, body, `class-${evt.id}`);
         }
@@ -2868,7 +2868,7 @@ function updateNextClassDisplay() {
 
     if (tagEl) tagEl.textContent = `NEXT CLASS TODAY • STARTS IN ${timeUntilStr.toUpperCase()}`;
     topicEl.textContent = `[${nextEvt.subject || nextEvt.department}] ${nextEvt.topic}`;
-    metaEl.textContent = `⏰ Today at ${formatTime(nextEvt.start_time)} • 📍 ${nextEvt.room || 'LT-1'} • 👨‍⚕️ ${nextEvt.faculty}`;
+    metaEl.textContent = `⏰ Today at ${formatTime(nextEvt.start_time)} • 📍 ${nextEvt.room || 'LT-2'} • 👨‍⚕️ ${nextEvt.faculty}`;
     return;
   }
 
@@ -2881,7 +2881,7 @@ function updateNextClassDisplay() {
     const nextEvt = upcomingEvents[0];
     if (tagEl) tagEl.textContent = `UPCOMING CLASS • ${formatNiceDate(nextEvt.date).toUpperCase()}`;
     topicEl.textContent = `[${nextEvt.subject || nextEvt.department}] ${nextEvt.topic}`;
-    metaEl.textContent = `📅 ${formatNiceDate(nextEvt.date)} at ${formatTime(nextEvt.start_time)} • 📍 ${nextEvt.room || 'LT-1'} • 👨‍⚕️ ${nextEvt.faculty}`;
+    metaEl.textContent = `📅 ${formatNiceDate(nextEvt.date)} at ${formatTime(nextEvt.start_time)} • 📍 ${nextEvt.room || 'LT-2'} • 👨‍⚕️ ${nextEvt.faculty}`;
   } else {
     if (tagEl) tagEl.textContent = 'SEMESTER SCHEDULE COMPLETE';
     topicEl.textContent = 'No more classes scheduled for this period';
@@ -2928,8 +2928,8 @@ function downloadICS() {
     const dtStart = toICSDate(evt.date, evt.start_time);
     const dtEnd   = toICSDate(evt.date, evt.end_time);
     const summary = `[${evt.subject || evt.department}] ${evt.topic}`;
-    const desc    = `Department: ${evt.department}\\nFaculty: ${evt.faculty}\\nTopic: ${evt.topic}\\nType: ${evt.class_type}\\nGroup: ${evt.group || 'All'}\\nVenue: ${evt.room || 'LT-1'}`;
-    const loc     = `${evt.room || 'LT-1'}, AIIMS Bhubaneswar`;
+    const desc    = `Department: ${evt.department}\\nFaculty: ${evt.faculty}\\nTopic: ${evt.topic}\\nType: ${evt.class_type}\\nGroup: ${evt.group || 'All'}\\nVenue: ${evt.room || 'LT-2'}`;
+    const loc     = `${evt.room || 'LT-2'}, AIIMS Bhubaneswar`;
 
     lines.push(
       'BEGIN:VEVENT',
@@ -3168,7 +3168,7 @@ function bootApp() {
     const lead = reminderSettings.leadTime || 10;
     sendClassNotification(
       `🔔 Class in ${lead}m: Intestinal Infections`,
-      `👨‍⚕️ Dr Swayam Pragyan Parida\n📍 LT-1 • ⏰ 8:00 AM – 9:00 AM\n(Test Notification Successful!)`,
+      `👨‍⚕️ Dr Swayam Pragyan Parida\n📍 LT-2 • ⏰ 8:00 AM – 9:00 AM\n(Test Notification Successful!)`,
       'test-notif'
     );
   });
