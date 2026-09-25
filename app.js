@@ -1980,14 +1980,10 @@ function calculateCurrentWeekOffset() {
 
 /**
  * Resolves the default view mode:
- * On mobile devices (screen width <= 768px), defaults to 'grid' view.
- * On desktop devices, defaults to 'agenda' view.
+ * Default view is the 7-day Timetable Grid matrix.
  */
 function getDefaultViewMode() {
-  if (typeof window !== 'undefined' && window.innerWidth <= 768) {
-    return 'grid';
-  }
-  return 'agenda';
+  return 'grid';
 }
 
 let weekOffset      = calculateCurrentWeekOffset(); // Automatically defaults to today!
