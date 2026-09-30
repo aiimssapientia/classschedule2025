@@ -6,7 +6,7 @@ Built with pure **HTML5, Modern CSS3, and Vanilla JavaScript (ES6+)** with zero 
 
 ---
 
-## 📚 3rd Semester Verified Curricular Breakdown (124 Total Sessions)
+## 📚 3rd Semester Verified Curricular Breakdown (156 Total Sessions)
 
 This calendar strictly contains **only 3rd Semester classes for MBBS Batch 2025**:
 
@@ -14,10 +14,10 @@ This calendar strictly contains **only 3rd Semester classes for MBBS Batch 2025*
    - 14 Theory Lectures (Mondays 8–9 AM, Wednesdays 2–3 PM, Fridays 9–10 AM)
    - 6 Lab Practicals (Fridays 3–5 PM)
    - *Faculty: Dr. Amit Kumar Adhya, Dr. Mukund N. Sable, Dr. Gaurav Chhabra, Residents*
-2. 💊 **Pharmacology** (22 Sessions):
-   - 17 Theory Lectures (Mondays 9–10 AM, Wednesdays 9–10 AM, Fridays 8–9 AM, Thursdays 2–3 PM)
-   - 5 Lab Practicals (Thursdays 2–5 PM / 3–5 PM)
-   - *Faculty: Dr. D. Hota, Dr. B.M. Padhy, Dr. R. Maiti, Dr. M. Jena, Dr. Abhishek Anil, Dr. Pragya, Dr. Ajaya K. Sahoo*
+2. 💊 **Pharmacology** (41 Sessions):
+   - 32 Theory Lectures (Mondays 9–10 AM, Wednesdays 9–10 AM, Fridays 8–9 AM, Thursdays 2–3 PM)
+   - 9 Lab Practicals (Thursdays 2–5 PM / 3–5 PM)
+   - *Faculty: Dr. D. Hota, Dr. B.M. Padhy, Dr. R. Maiti, Dr. M. Jena, Dr. Richardson, Dr. Abhishek Anil, Dr. Preksha, Dr. Mowdharani, Dr. AK Sahoo, Dr. Sayantan, Dr. Nidhi, Dr. Anand S, Dr. Aswini*
 3. 🧫 **Microbiology** (14 Sessions):
    - 8 Theory Lectures (Tuesdays 8–9 AM, Thursdays 9–10 AM)
    - 6 Lab Practicals & Demonstrations (Tuesdays 2–5 PM)
@@ -29,15 +29,16 @@ This calendar strictly contains **only 3rd Semester classes for MBBS Batch 2025*
 5. 🩺 **Community Medicine & Family Medicine (CMFM)** (34 Sessions):
    - 34 Theory Lectures in LT-2 (Saturdays 9–10 AM, Wednesdays 3–4 PM) running 29th Aug – 23rd Dec 2026
    - *Faculty: Dr. Manish Taywade, Dr. Abhisek Mishra, Dr. Prajna Paramita Giri, Dr. Priyamadhaba Behera*
-6. 🩺 **General Medicine** (5 Sessions):
-   - 5 Theory Lectures in LT-2 (Wednesdays 8–9 AM)
-   - *Faculty: Dr. Rashmi, Dr. Dhriti, Dr. Anupama, Dr. Srikant, Dr. Debananda*
-7. 👶 **Paediatrics** (5 Sessions):
-   - 5 Theory Lectures in LT-2 (Wednesdays 4–5 PM)
-   - *Faculty: Prof. Dr. Samarendra Mahapatro, Prof. Dr. Joseph John, Prof. Dr. Bhagirathi Dwibedi, Prof. Dr. Rashmi Ranjan Das, Dr. Pankaj Mohanty*
-8. 🤰 **Obstetrics & Gynaecology (OBG)** (4 Sessions):
-   - 4 Theory Lectures in LT-2 (Thursdays 8–9 AM)
-   - *Faculty: Dr. S. Patra, Dr. S. Mitra, Dr. S.K. Jena, Dr. S. Singh*
+6. 🩺 **General Medicine** (9 Sessions):
+   - 9 Theory Lectures in LT-2 (Wednesdays 8–9 AM)
+   - *Faculty: Dr. Rashmi, Dr. Dhriti, Dr. Anupama, Dr. Srikant, Dr. Debananda, Dr. Arpita*
+7. 👶 **Paediatrics** (9 Sessions):
+   - 9 Theory Lectures in LT-2 (Wednesdays 4–5 PM)
+   - *Faculty: Prof. Dr. Samarendra Mahapatro, Prof. Dr. Joseph John, Prof. Dr. Bhagirathi Dwibedi, Prof. Dr. Rashmi Ranjan Das, Dr. Pankaj Mohanty, Dr. Tapas Kumar Som, Dr. Jagdish Prasad Sahoo*
+8. 🤰 **Obstetrics & Gynaecology (OBG)** (9 Sessions):
+   - 9 Theory Lectures (Thursdays 8–9 AM; Aug–Sep in LT-2, Oct in LT-1)
+   - *Faculty: Dr. S. Patra, Dr. S. Mitra, Dr. S.K. Jena, Dr. S. Singh, Dr. Deepthy, Dr. I. Mohapatra, Dr. Satish*
+   - *Clinical Posting: Group B (Roll No. 26–50) from 26th Sept – 25th Oct 2026*
 
 ---
 
